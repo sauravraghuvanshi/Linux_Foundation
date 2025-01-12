@@ -243,7 +243,8 @@ $ chsh
  To check the value of a environment variable called **`LOGNAME`**
  ```
  $ echo $LOGNAME
-
+ ```
+ 
 #### Path Variable
 
 ##### Speaking about the environment variables, when a user issues an external command into the shell, the shell uses path variable to search for these external commands
@@ -282,8 +283,11 @@ $ echo $PS1
 
 #### To customize further, have a look at the below special character.
 
-To change the bash prompt to display **`date`**, **`time`**, **`username of the current user`**, the **`hostname`** and the **`current working directory`**
+To change the bash prompt to display **`date`**, **`time`**, **`username of the current 
+user`**, the **`hostname`** and the **`current working directory`**
+
 ```
 $ PS1="[\d \t \u@\h:\w ] $ "
 ```
+
 ![Bash_Shell](Images/image5.png)
