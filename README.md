@@ -1,7 +1,9 @@
 # Linux Foundation
 I am talking about Liunx foundation and will add my learning summary in this repo. 
 
-## Working with the shell: 
+## Working with Shell:
+
+### Shell Fundamental: 
 
 #### Linux shell
 - This command line interface (CLI) will enable you to effectively work on linux laptop/server/virtual machine.
@@ -19,11 +21,10 @@ I am talking about Liunx foundation and will add my learning summary in this rep
   - Other users can't access your files and folders with in your home directory **`(only you can)`.**
 
 #### Command Prompt
-
-![Command Prompt](Images/image.png)
-
 - You can configure the command prompt to show whatever you want, such as the **`hostname`** , **`date`** or **`time`**. 
 - It is currently configured to show the current working directory. The **`~` symbol**  here represents the home directory
+
+![Command Prompt](Images/image.png)
 
 #### Command and Arguments
 
@@ -65,5 +66,80 @@ To determine a command is internal or external, use **`type`** command
  
 ![Command-Types](Images/image2.png)
 
+### Basic Linux Commands
 
+To print the present working directory. Run **`pwd`** command
+```
+$ pwd
+```
+
+To see the contents of the directory. Run **`ls`** command
+```
+$ ls 
+````
+
+To make (or) create a directory. Run **`mkdir`** command
+```
+$ mkdir Asia
+```
+
+To make (or) create multiple directories. Run **`mkdir`** command followed by **`<directory_name1> <directory_name2> .. <directory_nameN>`**
+```
+$ mkdir Europe Africa America
+```
+
+To change a directory from the current directory. Run **`cd <directory_name>`**
+```
+$ cd Asia
+```
+
+To recursively created directories. Run **`mkdir -p <directory_name1>/<sub_directory_of_name1>`**
+```
+$ mkdir -p India/Mumbai
+```
+
+To go back to one directory up. Run **`cd ..`**
+```
+$ cd ..
+```
+
+To go back directly to a home directory of the current user from any location in the system. Run **`cd`**
+```
+$ cd
+```
+#### Difference absolute path and relative path
+
+- **Absolute Path** : An absolute path is defined as specifying the location of a file or directory from the root directory(/).
+- **Relative Path** : Relative path is defined as the path related to the present working directly(pwd).
+
+To change to a directory with absolute path. Run **`cd <directory_path>`**
+```
+$ cd /home/saurav
+```
+
+To Change to a directory with relative path. Run **`cd <directoryName>`**
+```
+$ cd Asia
+```
+
+To get the long list of files and directories. Run **`ls -l`** command
+```
+$ ls -l
+```
+
+To list all files including the hidden. Run **`ls -a`** command
+```
+$ ls -a
+```
+
+To list all the files in the order they were modified. Run **`ls -lt`** command
+```
+$ ls -lt
+```
+
+To list all the files form oldest to newest. Run **`ls -ltr`** command
+```
+$ ls -ltr
+```
+![Basic-Command](Images/image3.png)
 
