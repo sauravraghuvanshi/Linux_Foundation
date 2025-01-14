@@ -505,4 +505,6 @@ In this section, lets take a look at the **`filesystem hierarchy`**
  ```
  $ df -hP
  ```
- 
+
+## Package Management
+
